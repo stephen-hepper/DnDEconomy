@@ -1,8 +1,9 @@
-Honey: Buy: 30 gp per pint/Sell 10 gp per pint
+NAME,PRICE,UNIT_SIZE,GOOD_TYPE,UNITS_AVAILABLE
+Honey, 30, pint,trade,10
 
-Wheat Flour: Buy 5 cp per lb/ Sell 3 cp per lb 
+Wheat_Flour,.05, pound,trade,10
 
-Wool: Buy 2 sp per lb /Sell 1 sp per lb
+Wool, 2 sp per lb /Sell 1 sp per lb
 
 Sun Stone: Buy 50 gp/ Sell 25 gp
 
