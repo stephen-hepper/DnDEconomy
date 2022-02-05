@@ -1,66 +1,33 @@
-NAME,PRICE,UNIT_SIZE,GOOD_TYPE,UNITS_AVAILABLE
-Honey, 30, pint,trade,10
-
-Wheat_Flour,.05, pound,trade,10
-
-Wool, 2 sp per lb /Sell 1 sp per lb
-
-Sun Stone: Buy 50 gp/ Sell 25 gp
-
-Furs: Buy 10 gp per pelt/Sell 5 gp per pelt
-
-Feathers: Buy 2 sp per lb/Sell 1 sp per lb
-
-Antlers: Buy 1 gp per pound/Sell  5 sp per pound
-
-Thralls: Buy  60 gp per thrall
-
-Dried fish: 5 sp per buttload
-
-Ships Biscuit: 1 sp per barrel
-
-Beer: 1 gp per barrel
-
-Spring water: 1 sp per
-
-"water": 1 cp per barrel
-
-====================================WEAPONS===================================
-
-Swords: 70 gp
-
-Club: 1 sp
-
-Shortbow: 25 gp
-
-Longbow: 50 gp
-
-Javelins: 5 sp
-
-Spear: 1 gp
-
-Daneaxe: 30 dp (Great axe)
-
-Seaxe: 2 gp (dagger)
-
-Quarterstaff: 2 sp
-
-Handaxe: 5 gp
-
-Sling: 1 sp
-
-Halberd: 90 gp
-
-=====================================ARMOR=====================================
-
-Reindeer leather Armor: 20 gp (hide armor)
-
-Helmet: 25 gp
-
-Maille Hauberk: 50 gp (Chain shirt)
-
-Shield: 10 gp
-
-Hide Coat: 10 gp (leather)
-
+NAME, PRICE, UNIT_SIZE, GOOD_TYPE, UNITS_AVAILABLE
+Honey,30,pint,TRADE,10
+Wheat_Flour,0.05,pound,TRADE,10
+Wool,0.2,pound,TRADE,10
+Sun_Stone,80,single,TRADE,0
+Furs,10,single,TRADE,10
+Feathers,0.20,pound,TRADE,10
+Antlers,1,pound,TRADE,10
+Thralls,60,single,TRADE,10
+Dried_Fish,0.20,barrel,TRADE,10
+Fresh_Fish,0.5,barrel,TRADE,10
+Ships_Biscuit,0.1,barrel,TRADE,10
+Beer,1,barrel,TRADE,10
+Spring_Water,0.10,barrel,TRADE,10
+Water,0.01,barrel,TRADE,10
+Swords,70,single,WEAPON,10
+Club,0.10,single,WEAPON,10
+Short-bow,25,single,WEAPON,10
+Longbow,50,single,WEAPON,10
+Javelins,0.50,single,WEAPON,10
+Spear,1,single,WEAPON,10
+Daneaxe,30,single,WEAPON,10
+Seaxe,2,single,WEAPON,10
+Quarterstaff,0.20,single,WEAPON,10
+Handaxe,5,single,WEAPON,10
+Sling,0.10,single,WEAPON,10
+Halberd,90,single,WEAPON,10
+Reindeer_Leather_Armor,20,single,ARMOR,10
+Helmet,25,single,ARMOR,10
+Maille_Hauberk,50,single,ARMOR,10
+Shield,10,single,ARMOR,10
+Hide_Coat,10,single,ARMOR,10
 
