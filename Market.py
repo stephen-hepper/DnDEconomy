@@ -19,6 +19,7 @@ class Market(object):
             self.trade_goods = trade_goods
 
     def display_goods(self):
+        #print(self.trade_goods)
         for good in self.trade_goods:
             # used as a quick check for now, need to expand to print all details
             if good is not None:

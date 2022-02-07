@@ -13,10 +13,9 @@ class Hub(object):
     path = "markets"
 
     def __init__(self, market_list=None, name="placeholder"):
-        if market_list is None:
-            market_list = []
 
-        self.market_list = market_list
+
+        self.market_list = []
         self.name = name
         self.populate_markets()
 
@@ -39,8 +38,11 @@ class Hub(object):
                     tg = TradeGood(item[0], item[1], item[2], item[3], item[4])
                     goods.append(tg)
 
+
             m = Market(m_name, goods)
+            print(f'market list before: {self.market_list}')
             self.market_list.append(m)
+            print(f'market list after: {self.market_list}')
 
     def display_markets(self):
         for market in self.market_list:
