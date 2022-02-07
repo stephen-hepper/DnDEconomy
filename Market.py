@@ -21,7 +21,11 @@ class Market(object):
     def display_goods(self):
         for good in self.trade_goods:
             # used as a quick check for now, need to expand to print all details
-            print(f'{good.name}')
+            if good is not None:
+                print(f'{good.name:25s}{good.price_per_unit:10s}{good.unit_size:10s}{good.good_type:10s}'
+                      f'{good.units_available:4}')
+            else:
+                print("Good is none")
 
 
 '''

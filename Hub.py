@@ -21,7 +21,7 @@ class Hub(object):
         self.populate_markets()
 
     def populate_markets(self):
-        goods = []
+        #goods = []
 
         for file in os.listdir(Hub.path):
 
@@ -44,7 +44,11 @@ class Hub(object):
 
     def display_markets(self):
         for market in self.market_list:
-            print(market.name)
+            print(f'\nMarket: {market.name.upper()}')
+            print(f'NAME\t\tPRICE\t\tUNIT_SIZE\t\tGOOD_TYPE\t\tUNITS_AVAILABLE')
+            print(f'-----------------------------------------------------------')
+           # print("%5s %10s %10s %10s" % ("NAME","PRICE","UNIT_SIZE","UNIT_AVAILABLE"))
+            #print(f'NAME\t\t\tPRICE\t\t\tUNIT_SIZE\t\t\tGOOD_TYPE\t\t\tUNITS_AVAILABLE')
             print(market.display_goods())
 
 if __name__ == '__main__':
